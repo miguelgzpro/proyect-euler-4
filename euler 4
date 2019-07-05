@@ -1,0 +1,5 @@
+new Number(value); 
+var a = new Number('123'); // a === 123 es falso
+var b = Number('123'); // b === 123 es verdadero
+a instanceof Number; // es verdadero
+b instanceof Number; // es falso
